@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: aliceblue;
+}
+.CENTER{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+span{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.active{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width:340px){
+    span{
+        font-size: 20px;
+    }
+}
