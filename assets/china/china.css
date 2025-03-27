@@ -138,12 +138,67 @@
     
         display: grid;
         grid-template-columns: 3fr 2fr 2fr 2fr 2fr 3fr;
-        grid-template-rows: 1fr 1fr 20px 1fr;
+        grid-template-rows: 1fr 60px 20px 1fr;
        gap: 10px; 
        background: url(./china.jpg);
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
        /* background: url(./assets/240_F_995459165_A4tYSDXMWuyZVaLzwSRsugJCeWiDjnxz.jpg); */
+    }
+
+    #hours{
+        grid-area: 2/2/-4/-5;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        font-size: xx-large;
+        background-color: brown;
+        color: white;
+
+        border-radius: 12px;
+    }
+    #minutes{
+        grid-area: 2/3/-4/-4;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: xx-large;
+        background-color: brown;
+        color: white;
+        border-radius: 12px;
+        
+        
+    }
+    #seconds{
+        grid-area: 2/4/-4/-3;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: xx-large;
+        background-color: brown;
+        color: white;
+        border-radius: 12px;
+        
+    }
+    .ampm{
+        grid-area: 2/5;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-size: larger;
+        font-weight: 800;
+    
+        color: white;
+        background-color: black;
+        border-radius: 12px;
     }
 }
