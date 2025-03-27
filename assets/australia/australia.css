@@ -12,7 +12,7 @@
     grid-template-columns: 3fr 2fr 2fr 2fr 2fr 3fr;
     grid-template-rows: 1fr 1fr 20px 1fr;
    gap: 10px; 
-   background: url(./brazil.jpg);
+   background: url(./australia.jpg);
 /* background-position: center; */
    background-repeat: no-repeat;
    background-size: cover;
@@ -141,7 +141,7 @@
         grid-template-columns: 3fr 2fr 2fr 2fr 2fr 3fr;
         grid-template-rows: 1fr 1fr 20px 1fr;
        gap: 10px; 
-       background: url(./brazil.jpg);
+       background: url(./australia.jpg);
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
